@@ -10,17 +10,17 @@ public class UAS_DASPRO {
             
             if (sc.hasNextInt()) {
                 jmlPoliteknik = sc.nextInt();
-                sc.nextLine(); // Membersihkan buffer
+                sc.nextLine(); 
 
                 if (jmlPoliteknik > 0) {
-                    break; // Input valid, keluar dari loop
+                    break; 
                 
                 } else {
                     System.out.println("Jumlah politeknik harus lebih dari nol. Silakan masukkan kembali.");
                 }
             } else {
                 System.out.println("Input tidak valid. Masukkan angka yang benar.");
-                sc.nextLine(); // Membersihkan input yang tidak valid
+                sc.nextLine(); 
             }
         }
 
