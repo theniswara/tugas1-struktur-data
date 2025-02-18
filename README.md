@@ -154,7 +154,7 @@ System.out.println("Politeknik " + (politeknik + 1) + ":");
 Menampilkan nomor politeknik.
 
 ```java
-for (int nama = 0; nama < 3; nama++) { ... }
+for (int nama = 0; nama < 3; nama++) { }
 ```
 Loop untuk menampilkan 3 atlet per politeknik.
 
